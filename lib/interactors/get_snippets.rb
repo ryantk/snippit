@@ -1,7 +1,7 @@
 require 'boundaries/response_model'
 require 'boundaries/request_model'
 
-class GetAllSnippets
+class GetSnippets
   attr_reader :snippets_repository, :request_model
 
   def initialize(args = {})
