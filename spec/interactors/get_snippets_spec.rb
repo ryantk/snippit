@@ -1,6 +1,4 @@
 require 'spec_helper'
-require 'interactors/get_snippets'
-require 'boundaries/request_model'
 
 describe GetSnippets do
 
